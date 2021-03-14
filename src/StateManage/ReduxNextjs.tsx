@@ -151,9 +151,7 @@ export const useWowgoSelector = <Type, TSelected = unknown>(
 
 /**
  * 
- * @param selector 篩選函數
- * @param equalityFn 判斷篩選函數
- * @returns 篩選過後的狀態值
+ * @returns dispatch 函數
  * 
  * @example
  * const AboutPage = (props: any) => {
